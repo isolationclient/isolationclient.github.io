@@ -9,6 +9,7 @@ h1 {
     text-shadow: black, 2px 2px;
     font-family: 'Franklin Gothic Medium';
     font: bold, large;
+    font-size: xx-large;
     animation: myAnim 2s ease 0s 1 normal forwards;
 
 }
