@@ -1,11 +1,13 @@
 body {
     background-color: #1f1f1f;
     text-align: center;
-    text-shadow: black 1px 1px;
-    text-decoration-color: white;
     
 }
 
 h1 {
     color: white;
+    text-shadow: 2px 2px;
+    font-family: 'Franklin Gothic Medium';
+    font: bold, large;
+
 }
