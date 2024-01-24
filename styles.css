@@ -2,6 +2,7 @@ body {
     background-color: #1f1f1f;
     text-align: center;
     margin: 0;
+    background-image: url("bg.png");
     
 }
 
@@ -12,9 +13,11 @@ h1 {
     font: bold, large;
     font-size: 100px;
     animation: FadeUp 2s ease 0s 1 normal forwards;
-    padding: 200px;
+    padding: 50%;
 
 }
+
+
 
 @keyframes FadeUp {
 	0% {
