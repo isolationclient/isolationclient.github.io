@@ -10,11 +10,11 @@ h1 {
     font-family: 'Franklin Gothic Medium';
     font: bold, large;
     font-size: xx-large;
-    animation: myAnim 2s ease 0s 1 normal forwards;
+    animation: FadeUp 2s ease 0s 1 normal forwards;
 
 }
 
-@keyframes myAnim {
+@keyframes FadeUp {
 	0% {
 		opacity: 0;
 		transform: translateY(50px);
