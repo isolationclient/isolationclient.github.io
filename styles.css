@@ -1,6 +1,7 @@
 body {
     background-color: #1f1f1f;
     text-align: center;
+    margin: 0;
     
 }
 
@@ -11,6 +12,7 @@ h1 {
     font: bold, large;
     font-size: 100px;
     animation: FadeUp 2s ease 0s 1 normal forwards;
+    padding: 50px;
 
 }
 
