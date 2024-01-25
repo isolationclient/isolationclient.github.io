@@ -9,6 +9,9 @@
         function download_file() {
             document.getElementById("my_download").click()
           }
+
+          let isMobileDevice = window.matchMedia("only screen and (max-width: 760px)").matches;
+
         </script>
     </head>
     <body>
@@ -17,5 +20,12 @@
            </a>
         <a id="my_download" href="latest.jar" download="latest.jar" style="display:none;"></a>
         <button class="btn" onClick="download_file()"><i class="fa fa-download"></i> Download Latest</button>
+        <script>            if(isMobileDevice){
+            document.body.style.backgroundSize = "2000px"  
+            document.getElementsByTagName('html')[0].style.overflow = "hidden"
+  }else{
+      
+  }
+  </script>
     </body>
 </html>
