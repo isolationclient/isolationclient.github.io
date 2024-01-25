@@ -1,0 +1,21 @@
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport", content="width=device-width, initial-scale=1.0">
+        <title>Isolation Client | Download</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script>
+        function download_file() {
+            document.getElementById("my_download").click()
+          }
+        </script>
+    </head>
+    <body>
+        <a href="index.html" target="_self">
+            <img src="icon.png" />
+           </a>
+        <a id="my_download" href="latest.jar" download="latest.jar" style="display:none;"></a>
+        <button class="btn" onClick="download_file()"><i class="fa fa-download"></i> Download Latest</button>
+    </body>
+</html>
