@@ -5,12 +5,19 @@
         <title>Isolation Client | Home</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script>
+            let isMobileDevice = window.matchMedia("only screen and (max-width: 760px)").matches;
+            if(isMobileDevice){
+                document.body.style.backgroundSize = 1000
+            }else{
+                
+            }
+        </script>
     </head>
     <body>
         <a href="index.html" target="_blank">
             <img src="icon.png" />
            </a>
-        <a id="my_download" href="IsolationClient.jar" download="IsolationClient.jar" style="display:none;"></a>
         <h1>Isolation Client</h1>
         <button class="btn" onClick="window.location.href = 'download.html';"><i class="fa fa-download"></i> Download</button>
     </body>
